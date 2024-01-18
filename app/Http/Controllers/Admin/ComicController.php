@@ -58,6 +58,7 @@ class ComicController extends Controller
         $comic->save();
 
         return redirect()->route('comics.index')->with('success', 'Comic creato con successo!');
+
     }
 
     /**
