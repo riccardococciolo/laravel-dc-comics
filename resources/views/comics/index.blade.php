@@ -26,7 +26,6 @@
                         <td>${{ $comic->price }}</td>
                         <td>
                             <a class="btn btn-success" href="{{ route('comics.show', ['comic' => $comic->id]) }}">Dettagli</a>
-                            <!-- Aggiungi altri pulsanti per azioni come Modifica o Elimina se necessario -->
                         </td>
                     </tr>
                 @endforeach
